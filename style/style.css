@@ -12,7 +12,6 @@ body {
     align-items: center;
 }
 
-
 .header-box {
     background-color: rgb(218, 165, 33);
     width: 1000px;
@@ -24,6 +23,7 @@ body {
     padding: 10px;
     border: 2px dashed black;
     font-size: larger;
+    border-radius: 10px;
 }
 
 .pink-container {
@@ -38,7 +38,38 @@ body {
 .pink-section {
     border: 2px dashed black;
     background-color: rgb(238, 129, 238);
-    height: 350px;
+    min-height: 350px;
     width: 55%;
     border-radius: 10px;
+}
+
+.white-container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.left-column {
+    min-height: 500px;
+    width: 50%;
+    background-color: rgb(29, 144, 255);
+    border: 2px dashed black;
+}
+
+.right-column {
+    min-height: 500px;
+    width: 30%;
+    background-color: rgb(255, 191, 203);
+    border: 2px dashed black;
+}
+
+.grey-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 50px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: rgb(211, 211, 211);
 }
