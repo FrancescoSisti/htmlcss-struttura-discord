@@ -14,7 +14,7 @@ body {
 
 .header-box {
     background-color: rgb(218, 165, 33);
-    width: 1000px;
+    width: 80%;
     display: flex;
     min-height: 40px;
     flex-direction: row;
@@ -72,4 +72,34 @@ body {
     flex-wrap: nowrap;
     justify-content: center;
     background-color: rgb(211, 211, 211);
+}
+
+.green-section {
+    border: 2px dashed black;
+    background-color: rgb(35, 139, 33);
+    min-height: 1000px;
+    width: 80%;
+}
+
+.black-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 50px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: rgb(35, 39, 42);
+}
+
+.links-left {
+    min-height: 700px;
+    width: 50%;
+    background-color: rgb(240, 128, 128);
+    border: 2px dashed black;
+}
+
+.links-right {
+    min-height: 700px;
+    width: 30%;
+    background-color: rgb(32, 178, 170);
+    border: 2px dashed black;
 }
