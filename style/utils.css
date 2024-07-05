@@ -1,0 +1,45 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utilities genrali */
+:root {
+    --space-sm: 10px;
+    --space-md: 15px;
+    --space-lg: 20px;
+    --space-xl: 30px;
+    --space-xxl: 40px;
+}
+
+.dp-flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* margin bottom varie misure */
+.md-1 {
+    margin-bottom: var(--space-sm);
+}
+
+.md-2 {
+    margin-bottom: var(--space-md);
+}
+
+.md-3 {
+    margin-bottom: var(--space-lg);
+}
+
+.md-4 {
+    margin-bottom: var(--space-xl);
+}
+
+.md-5 {
+    margin-bottom: var(--space-xxl);
+}
